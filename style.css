@@ -7,7 +7,8 @@ body
         margin-right: 25px;
         margin-top: 20px;
         font-size: 13px;
-        font-family: Verdana, Arial, Helvetica, sans-serif;
+        /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+	font-family: monospace;
         color: #333333;
         /*color: #696969;*/
 }
@@ -20,7 +21,7 @@ table
         //margin-top: 12px;
         font-size: 14px;
         /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
-        font-family: times;
+        font-family: monospace;
         color: #000000;
 }
 
@@ -45,7 +46,7 @@ h2
 
 h3
 {
-        font-size: 14px;
+        font-size: 15px;
         color: #00000;
         text-decoration: none;
         font-family: monospace;
@@ -58,7 +59,7 @@ p
         text-decoration: none;
 }
 pre {
-  font-family: times, "Bitstream Vera Sans", Geneva, sans-serif;
+  font-family: monospace;
   font-size: 14px;
 }
 /*.paddedList ul li {
